@@ -31,7 +31,7 @@ class Song
     library = {}
     @@genres.each do |genre|
       if library.key?(genre)
-        genre += 1 
+        library[genre] += 1 
       else
         library[genre]+=1
       end
