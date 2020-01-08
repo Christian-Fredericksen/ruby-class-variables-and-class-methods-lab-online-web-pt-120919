@@ -29,13 +29,22 @@ class Song
   
   def self.genre_count
     library = {}
-    library[:g] = 1
-     
     @@genres.map {|g| library[g]}
     library
     
   end
-  
+   def self.genre_count
+    count = {}
+    @@genres.each do |genre|
+ 
+
+
+
+
+
+      if count.key?(genre)
+      else
+      end
   
   
 end
