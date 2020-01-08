@@ -29,6 +29,7 @@ class Song
   
   def self.genre_count
     library = {}
+    library[:g]
     @@genres.map {|g| library[:g]}
     library
     
