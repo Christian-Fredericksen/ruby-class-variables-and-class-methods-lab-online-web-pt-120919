@@ -33,6 +33,7 @@ class Song
       if library.key?(genre)
         genre += 1 
       else
+        genre = 1 
       end
     end
     library
