@@ -28,7 +28,8 @@ class Song
   end
   
   def self.genre_count
-    
+    library = {}
+    @@genres.map {|g| library << g}
     
   end
   
