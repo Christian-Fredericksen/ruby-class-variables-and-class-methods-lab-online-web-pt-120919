@@ -31,7 +31,7 @@ class Song
     library = {}
     library[:g] = 1 
      
-    @@genres.map {|g| library[:g]}
+    @@genres.map {|g| library[:g] +=1}
     library
     
   end
