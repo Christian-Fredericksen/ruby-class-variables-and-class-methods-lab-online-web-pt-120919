@@ -34,6 +34,7 @@ class Song
       else
       end
     end
+    library
   end
     
   
